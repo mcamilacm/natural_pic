@@ -1,0 +1,88 @@
+nav {
+    background-color:white; 
+    padding: 1rem; 
+    display: flex; 
+    justify-content: center;
+  
+    @media (min-width: 1025px)
+    {
+      padding-right: 3rem;
+      padding-left: 3rem;
+  
+    
+  }
+  }
+  .nav_container{
+    display: flex;
+    align-items: center; 
+    justify-content:space-between;
+  
+    width:100%;
+    max-width: 1028px;
+  
+  
+  }
+
+  .titles_nav{
+
+    display: flex;
+    gap: 2rem;
+   
+  
+  }
+
+  .home_nav
+{
+display: none;
+@media (min-width: 1025px)
+{
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color:#693C18; 
+  letter-spacing: 2px;
+}
+
+}
+
+.contact_nav
+{
+  display: none;
+  @media (min-width: 1025px)
+{
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color:#693C18; 
+  letter-spacing: 2px;
+}
+}
+
+.link_mail
+{
+  @media (min-width: 1025px)
+  {
+    display: none;
+  }
+}
+
+.mail_mobile
+{ 
+  @media (min-width: 1025px)
+{
+  display:none;
+}
+
+}
+
+
+
+/* Estilos para el ícono del corazón */
+.heart {
+  cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+}
+
+/* Estilos para el ícono del corazón cuando está marcado como favorito */
+.heart.like {
+  color: red; /* Cambia el color del ícono a rojo cuando está marcado como favorito */
+}
